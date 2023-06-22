@@ -1,0 +1,1 @@
+export { GroupChatModal } from './GroupChatModal'
