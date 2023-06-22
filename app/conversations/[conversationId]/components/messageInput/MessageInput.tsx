@@ -1,5 +1,3 @@
-'use client'
-
 import { FC, HTMLInputTypeAttribute } from 'react'
 import { FieldErrors, FieldValues, UseFormRegister } from 'react-hook-form'
 
@@ -14,7 +12,6 @@ interface Props {
 
 export const MessageInput: FC<Props> = ({
   id,
-  errors,
   placeholder,
   register,
   required,

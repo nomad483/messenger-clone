@@ -12,7 +12,7 @@ interface Props {
 
 export const Avatar: FC<Props> = ({ user }) => {
   const { members } = useActiveList()
-  const isActive = members.indexOf(user?.email!) !== -1
+  const isActive = members.indexOf(user?.email as string) !== -1
 
   return (
     <div className="relative">

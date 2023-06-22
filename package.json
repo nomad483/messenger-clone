@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format:fix": "prettier --write \"app/**/*.{ts,tsx,js,json,md}\" \"pages/**/*.{ts,tsx,json,md}\"",
+    "lint:fix": "eslint \"app/**/*.{ts,tsx}\" \"pages/**/*.{ts,tsx}\" --fix"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",

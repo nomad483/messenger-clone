@@ -3,9 +3,9 @@ import { Inter } from 'next/font/google'
 
 import './globals.css'
 
+import { ActiveStatus } from '@/app/components/active-status'
 import AuthContext from '@/app/context/AuthContext'
 import ToasterContext from '@/app/context/ToasterContext'
-import { ActiveStatus } from '@/app/components/active-status'
 
 const inter = Inter({ subsets: ['latin'] })
 

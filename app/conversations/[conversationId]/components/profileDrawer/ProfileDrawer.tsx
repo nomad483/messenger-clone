@@ -1,5 +1,5 @@
 'use client'
-import { FC, Fragment, useMemo } from 'react'
+import { Fragment, useMemo } from 'react'
 import { IoClose, IoTrash } from 'react-icons/io5'
 import { Dialog, Transition } from '@headlessui/react'
 import { Conversation, User } from '@prisma/client'

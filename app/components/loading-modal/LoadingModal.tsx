@@ -7,6 +7,7 @@ import { Dialog, Transition } from '@headlessui/react'
 export const LoadingModal = () => {
   return (
     <Transition.Root show as={Fragment}>
+      {/* eslint-disable-next-line @typescript-eslint/no-empty-function */}
       <Dialog as="div" className="relative z-50" onClose={() => {}}>
         <Transition.Child
           as={Fragment}
